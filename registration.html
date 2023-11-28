@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome thought Canvos</title>
+    <link rel="stylesheet" href="thoughtcanvos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="thoughtcanvos.js"></script>
+    <div class="logo">
+        <h2 id="name">Thought Canvos❤</h2>
+        <ul><li><a >HOME</a></li></ul>
+        <ul><li><a>ABOUT</a></li></ul>
+    </div> 
+</head>
+<body>
+    <div class="login">
+
+        <div class="container" id="loginContainer">
+            <form id="loginForm">
+                <label for="loginUsername">Username:</label>
+                <input type="text" id="loginUsername" name="loginUsername" required>
+        
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="loginPassword" required>
+        
+                <button type="button" onclick="authenticate()">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" onclick="toggleForms()">Register</a></p>
+        </div>
+        
+        <div class="container" id="registerContainer" style="display:none;">
+            <form id="registerForm">
+                <label for="registerUsername">Username:</label>
+                <input type="text" id="registerUsername" name="registerUsername" required>
+        
+                <label for="registerPassword">Password:</label>
+                <input type="password" id="registerPassword" name="registerPassword" required>
+        
+                <button type="button" onclick="register()">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" onclick="toggleForms()">Login</a></p>
+        </div>
+
+        <h2 id="namea">Thought Canvos❤<br><span id="namea2">A Note of Your Beautiful Day..</span></h2>
+    
+
+        </div>
+
+
+    </div>
+
+    
+</body>
+</html>

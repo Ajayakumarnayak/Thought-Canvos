@@ -1,0 +1,133 @@
+body{
+    background: rgb(231,221,7);
+    background: linear-gradient(90deg, rgb(242, 255, 0) 1%, rgb(200, 3, 255) 100%);
+}
+.logo{
+    padding: 5px 3px;
+    height: 110px;
+    display: flex;
+}
+.logo ul{
+    list-style-type: none;
+    padding:20px;
+}
+.logo ul li a{
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo ul li a:hover{
+    color: rgb(254, 0, 140);
+}
+#name{
+    font-family: 'Style Script', cursive;
+    color: white;
+    font-size: 40px;
+    padding: 20px 400px;
+    text-shadow: 
+    -2px -2px 0 rgb(242, 5, 230),  
+    2px -2px 0 rgb(242, 5, 230),
+    -2px 2px 0 rgb(242, 5, 230),
+    2px 2px 0 rgb(242, 5, 230); 
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid rgb(178, 4, 209) ;
+}
+button{
+    width:150px;
+    background-color: rgb(242, 5, 230);
+    border: 2px solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 2px 2px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#entries h2{
+    margin-top: 20px;
+    border:2px solid black;
+    color:white ;
+    background-color:rgb(254, 0, 140) ;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+  }
+
+  #entryList{
+    background-color: white;
+    width:1220px;
+    overflow: auto;
+    white-space: normal;
+    word-wrap: break-word;
+    box-sizing: content-box;
+  }
+.login{
+    padding: 100px 50px;
+    border: 1px solid white;
+    height: 200px;
+display: flex;
+background: rgb(231,221,7);
+    background: linear-gradient(90deg, rgb(242, 255, 0) 1%, rgb(200, 3, 255) 100%); 
+border:none;
+background-position-x:center;
+}
+.login input{
+    width: 300px;
+    height:20px;
+    padding:5px 5px;
+    border-radius: 20px;
+    border:1px solid white;
+    background-color: transparent;
+    display: block;
+}
+.login a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(178, 4, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.login a:hover{
+    color: rgb(51, 0, 255);
+}
+.login ::placeholder{
+    color: rgb(57, 55, 55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login label{
+    font-size: 20px;
+    color: rgb(178, 4, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#namea{
+    font-family: 'Style Script', cursive;
+    color: white;
+    font-size: 70px;
+    padding:0px 100px;
+    text-shadow: 
+    -2px -2px 0 rgb(242, 5, 230),  
+    2px -2px 0 rgb(242, 5, 230),
+    -2px 2px 0 rgb(242, 5, 230),
+    2px 2px 0 rgb(242, 5, 230); 
+    display:flex;
+    height: 100px;
+    font-weight: bolder;
+}
+#namea2{
+    color: black;
+    padding: 100px 0px;
+    padding-right: 50px;
+    font-size: 15px;
+    text-shadow: none;
+}
